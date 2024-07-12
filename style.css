@@ -1,0 +1,271 @@
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    /* background-color: #07002d; */
+    background-image: linear-gradient(to right, #000036 50%, #01017f);
+   
+}
+
+.navBar{
+    display: flex;
+    color: #fff;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 63.7px;
+
+    
+}
+
+.logo{
+    font-size: 59px;
+    margin-top: 10px;
+}
+
+
+.options{
+    margin: 1px 10px;
+}
+
+.options a{
+    text-decoration: none;
+    color: #c7bfbf;
+    margin: 2px 13.3px;
+}
+
+.main{
+    display: flex;
+    color: #c7bfbf;
+    margin-left: 200px;
+
+}
+
+
+.heading{
+    width: 604px;
+    margin-top: 90px;
+    margin-left: 50px;
+    font-size: 50px;
+}
+.para{
+    position: absolute;
+    top: 320px;
+    left: 250px;
+    font-size: 20px;
+}
+
+
+.btn1 {
+    height: 43px;
+    width: 150px;
+    color: rgb(76, 78, 69);
+    position: absolute;
+    top: 400px;
+    left: 250px;
+    border: none;
+    background-color: #c7bfbf;
+    border-radius: 10px;
+}
+
+
+
+.photo{
+    height: 500px;
+    position: absolute;
+    right: 0px;
+    top: 120px;
+}
+
+
+.wabe{
+    width: 100vw;
+    position: absolute;
+    bottom: 0px;
+}
+
+
+.space{
+    height: 600px;
+}
+
+
+.serviceHeading{
+    color: rgb(172, 159, 134);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#services{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.mobileAppDevlopment{
+    height: 673.5px;
+    width: 480px;
+    background-color: rgb(108, 108, 32);
+    margin: 30px 0px 25px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 2px 2px rgb(0, 0, 0);
+}
+
+.mobileAppDevlopment h2{
+    font-size: 35px;
+}
+
+.mobileAppDevlopment p{
+    font-size: 20px;
+}
+
+.mobileAppDevlopment h2,p{
+    margin-left: 20px;
+    color: #fff;
+    line-height: 34px;
+    
+}
+
+
+.pho1{
+    width: 450px;
+    height: 300px;
+    margin: 15px 15px;
+    border-radius: 5px;
+}
+
+.mobileAppDevlopment:hover{
+    box-shadow: 20px 10px 10px rgb(229, 234, 133);
+    transition-duration: 1s;
+}
+
+
+.pho2{
+    width: 450px;
+    height: 300px;
+    margin: 15px 15px;
+    border-radius: 5px;
+}
+
+.pho3{
+    width: 450px;
+    height: 300px;
+    margin: 15px 15px;
+    border-radius: 5px;
+}
+
+.pho4{
+    width: 450px;
+    height: 300px;
+    margin: 15px 15px;
+    border-radius: 5px;
+}
+
+
+.pho5{
+    width: 450px;
+    height: 300px;
+    margin: 15px 15px;
+    border-radius: 5px;
+}
+
+
+
+.pho6{
+    width: 450px;
+    height: 300px;
+    margin: 15px 15px;
+    border-radius: 5px;
+}
+
+.company{
+    color: #c7bfbf;
+    display: flex;
+    margin: 40px;
+    padding: 20px;
+    flex-wrap: wrap;
+    
+}
+
+
+.about {
+    /* border: 3px solid white; */
+    border-radius: 10px;
+    width: 600px;
+    margin: 40px;
+}
+
+.company h1{
+    position: absolute;
+    left: 600px;
+    top: 2550px;
+}
+
+
+.whyPage{
+    /* border: 3px solid white; */
+    border-radius: 10px;
+    width: 600px;
+    margin: 40px;
+}
+
+
+.security{
+    /* border: 3px solid white; */
+    border-radius: 10px;
+    width: 600px;
+    margin: 40px;
+    position: relative;
+    left: 400px;
+}
+
+
+.footer{
+    color: white;
+    position: absolute;
+    /* bottom: 50px; */
+    background-color: #232323;
+    height: 400px;
+    display: flex;
+    width: 100vw;
+    padding: 30px;
+}
+
+
+.aboutUs p{
+    width: 400px;
+    margin: 28px;
+}
+
+.quickLink{
+    width: 200px;
+    margin: 28px;
+    /* text-decoration: none; */
+}
+
+
+.quickLink a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    color: #d2cdcd;
+}
+
+.experties{
+    width: 200px;
+    margin: 28px;
+}
+
+
+
+
+.contact{
+    width: 200px;
+    margin: 28px;
+    color: #c7bfbf;
+    font-size: 15px;
+}
